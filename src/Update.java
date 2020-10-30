@@ -15,11 +15,11 @@ public class Update {
 		String url = "jdbc:mysql://localhost:3306/database01?user=user01&password=password01&useSSL=false";
 
 		try (Connection connection = DriverManager.getConnection(url);
-				PreparedStatement statement = connection.prepareStatement("update user set email = ?, name = ? where id = ?")){
+				//PreparedStatement statement = connection.prepareStatement("update user set email = ?, name = ? where id = ?")){
+				PreparedStatement statement = connection.prepareStatement("update user set money = ? where id = ?")){
 
-			statement.setString(1, "ccc@ccc.ccc");
-			statement.setString(2, "Saburo Yamada");
-			statement.setLong(3, 3L);
+			statement.setInt(1, 10000);
+			statement.setLong(2, 2L);
 			statement.execute();
 		} catch (SQLException e) {
 			e.printStackTrace();
