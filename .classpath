@@ -4,5 +4,10 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/Users/yui/Downloads/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49.jar"/>
+	<classpathentry kind="lib" path="/Users/yui/Desktop/wcp/byte-buddy-1.10.15.jar"/>
+	<classpathentry kind="lib" path="/Users/yui/Desktop/wcp/byte-buddy-agent-1.10.15.jar"/>
+	<classpathentry kind="lib" path="/Users/yui/Desktop/wcp/mockito-core-3.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yui/Desktop/wcp/mockito-junit-jupiter-3.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yui/Desktop/wcp/objenesis-3.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
